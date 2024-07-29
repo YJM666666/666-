@@ -1,3 +1,8 @@
 ddaf
 rwewr
 tryy
+Test Case ID,Feature,Pre-Condition,Test Steps,Expected Result
+TC1,FE can receive announcement modal,- User is logged in to HSBC app.  - User is on the homepage.,1. Ensure the user is on the homepage.  2. Verify that the announcement modal is displayed on the homepage.,- The FE receives and displays the announcement modal successfully.
+TC2,Return FE in English,- User is logged in to HSBC app.  - User is on the homepage with the announcement modal visible.,1. Ensure the user is on the homepage with the announcement modal visible.  2. Verify that the content of the announcement modal is in English.,- The content of the announcement modal is displayed in English.
+TC3,Trigger interaction and send feedback on CTA click,- User is logged in to HSBC app.  - User is on the homepage with the announcement modal visible.,1. Ensure the user is on the homepage with the announcement modal visible.  2. Click on the navigation button or dismiss button on the announcement modal.,- Clicking the navigation button or dismiss button triggers an interaction.  - Feedback is sent to VCX.
+TC4,Trigger impression on successful display,- User is logged in to HSBC app.  - User is on the homepage.,1. Ensure the user is on the homepage.  2. Verify that the announcement modal displays successfully.,- The impression of the announcement modal is triggered.  - Impression data is sent to VCX.
